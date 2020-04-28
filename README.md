@@ -15,7 +15,7 @@ The dataset also needs to be split into training and testing set as we'll need t
 
 ## Part 3: Fitting the Artificial Neural Network into the training set
 
-This is the most crucial part of the project where we use _Keras_ to build a neural network that acts like a classifier for training the dataset. We use 2 models from the _Keras_ librry namely _Sequential_ and _Dense_. The _Sequential_ model is used to initialise the neural network whereas we use the _Dense_ model to add hidden layers to our network. For this project we use 2 hidden layers. 
+This is the most crucial part of the project where we use _Keras_ to build a neural network that acts like a classifier for training the dataset. We use 2 models from the _Keras_ library namely _Sequential_ and _Dense_. The _Sequential_ model is used to initialise the neural network whereas we use the _Dense_ model to add hidden layers to our network. For this project we use 2 hidden layers. 
 **Optimizers** are algorithms which are used to adjust the attributes of the neural network such as weights and learning rate in order to reduce loss, this project makes use of the _adam_ optimizer. Since the prediction is either positive or negative we use binary cross-entropy as the loss function.
 **Activation Function** is associated with each neuron in the network and is used to decide wheather the neuron should be activated or not.For the input layer and the hidden layers it's a good idea to use the _rectifier_ activation function while the output layer makes use of _sigmoid_ activation function.
 Finally after compiling the network when we finally fit the training set into the network we have to decide on the **batch size** and **epochs**. for training set of 800 reviews, batch size of 10 and 100 epochs should be efficient. Since the output prediction is a decimal number between 0-1 we consider all the predictions above 0.5 to be positive while the rest are considered negative.
@@ -24,3 +24,19 @@ Finally after compiling the network when we finally fit the training set into th
 
 The average accuracy yeilded by the model is **77%** and this can be drastically increased with a larger dataset to train our model. We have use a _confusion matrix_ to find the number of times the model predicts the correct values for the test set. A screenshot of the confusion matrix is available in the repository(_Correct predictions are shown in the top left and bottom right cell of the matrix while the other two cells show the incorrect predictions_). 
 Further improvements: There's room for improvement as the model's design could be helped with a user interface, which is something I've been working on recently.
+
+# Documentation
+
+[Keras](https://keras.io/) library used for building the neural network
+
+[Adam](https://keras.io/optimizers/) optimizer
+
+[sklearn](https://scikit-learn.org/stable/) library
+
+[nltk](https://www.nltk.org/) library 
+
+[Porter Stemmer](http://www.nltk.org/howto/stem.html) used for finding the stem of each word
+
+[re](https://docs.python.org/3/library/re.html) for text cleaning
+
+[pandas](https://pandas.pydata.org/) library
