@@ -37,6 +37,14 @@ Further improvements: There's room for improvement as the model's design could b
 
 [Porter Stemmer](http://www.nltk.org/howto/stem.html) used for finding the stem of each word
 
-[re](https://docs.python.org/3/library/re.html) for text cleaning
+[re](https://docs.python.org/3/library/re.html) for text cleaning (regex) 
 
 [pandas](https://pandas.pydata.org/) library
+
+# Library Installation
+
+* pip install Keras
+* pip install -U scikit-learn
+* pip install nltk
+* pip install regex
+* pip install pandas
