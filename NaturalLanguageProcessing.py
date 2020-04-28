@@ -53,7 +53,6 @@ from keras.layers import Dense
 
 # Initialising the ANN
 classifier = Sequential()
-
 # Adding the input layer and the first hidden layer
 classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 1500))
 # Adding the second hidden layer
