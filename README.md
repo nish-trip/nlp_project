@@ -27,6 +27,8 @@ Further improvements: There's room for improvement as the model's design could b
 
 # Documentation
 
+[tensorflow](https://www.tensorflow.org/guide), keras runs on top of tensorflow
+
 [Keras](https://keras.io/) library used for building the neural network
 
 [Adam](https://keras.io/optimizers/) optimizer
@@ -43,6 +45,7 @@ Further improvements: There's room for improvement as the model's design could b
 
 # Library Installation
 
+* pip install tensorflow
 * pip install Keras
 * pip install -U scikit-learn
 * pip install nltk
