@@ -5,8 +5,7 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
-# delimiter= '\t' is used to read it like a tsv file
-# quoting=3 is used to ignore the double quotes in the dataset
+# delimiter= '\t' is used to read it like a tsv file, quoting=3 is used to ignore the double quotes in the dataset
 
 # Cleaning the texts
 import re    # re library is used for text cleaning
