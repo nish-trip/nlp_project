@@ -20,11 +20,6 @@ This is the most crucial part of the project where we use _Keras_ to build a neu
 **Activation Function** is associated with each neuron in the network and is used to decide wheather the neuron should be activated or not.For the input layer and the hidden layers it's a good idea to use the _rectifier_ activation function while the output layer makes use of _sigmoid_ activation function.
 Finally after compiling the network when we finally fit the training set into the network we have to decide on the **batch size** and **epochs**. for training set of 800 reviews, batch size of 10 and 100 epochs should be efficient. Since the output prediction is a decimal number between 0-1 we consider all the predictions above 0.5 to be positive while the rest are considered negative.
 
-## Part 4: Conclusion
-
-The average accuracy yeilded by the model is **77%** and this can be drastically increased with a larger dataset to train our model. We have use a _confusion matrix_ to find the number of times the model predicts the correct values for the test set. A screenshot of the confusion matrix is available in the repository(_Correct predictions are shown in the top left and bottom right cell of the matrix while the other two cells show the incorrect predictions_). 
-Further improvements: There's room for improvement as the model's design could be helped with a user interface, which is something I've been working on recently.
-
 # Documentation
 
 [tensorflow](https://www.tensorflow.org/guide), keras runs on top of tensorflow
@@ -51,3 +46,9 @@ Further improvements: There's room for improvement as the model's design could b
 * pip install nltk
 * pip install regex
 * pip install pandas
+
+# Dataset and Inference
+
+We got our dataset from [superDataScience](https://www.superdatascience.com/pages/machine-learning). The dataset used for this project can be found from the 'natural language processing' section of the link. 
+
+The average accuracy yeilded by the model is **77%** and this can be drastically increased with a larger dataset to train our model. We have use a _confusion matrix_ to find the number of times the model predicts the correct values for the test set. A screenshot of the confusion matrix is available in the repository(_Correct predictions are shown in the top left and bottom right cell of the matrix while the other two cells show the incorrect predictions_). 
