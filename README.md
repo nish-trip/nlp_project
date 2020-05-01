@@ -49,6 +49,6 @@ Finally after compiling the network when we finally fit the training set into th
 
 # Dataset and Inference
 
-We got our dataset from [superDataScience](https://www.superdatascience.com/pages/machine-learning). The dataset used for this project can be found from the 'natural language processing' section of the link. 
+We got our dataset from [SuperDataScience](https://www.superdatascience.com/pages/machine-learning). The dataset used for this project can be found from the 'natural language processing' section of the link. 
 
 The average accuracy yeilded by the model is **77%** and this can be drastically increased with a larger dataset to train our model. We have use a _confusion matrix_ to find the number of times the model predicts the correct values for the test set. A screenshot of the confusion matrix is available in the repository(_Correct predictions are shown in the top left and bottom right cell of the matrix while the other two cells show the incorrect predictions_). 
