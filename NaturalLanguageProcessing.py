@@ -64,6 +64,10 @@ classifier.fit(x_train, y_train, batch_size = 10, epochs = 100)
 y_pred = classifier.predict(x_test)
 y_pred = (y_pred > 0.5)
 
+#making a confusion matrix 
+from sklearn.metrics import confusion_matrix
+confusionMatrix = confusion_matrix(y_test, y_pred)
+
 # printing the final accuracy of the model
 from sklearn.metrics import accuracy_score
 print(accuracy_score(y_test, y_pred))
