@@ -1,6 +1,7 @@
 # Natural Language Processing 
 
 This machine learning project makes use of python's libraries such as _nltk_,_re_,_pandas_,_sklearn_,etc to perform text analysis . To add to the complexity of the project an **Artificial Neural Network** has been used as the classifier. We have used the **Flask framework** for the web application which helps acts as the GUI for this project.
+
 To run the web app we can download all the code files from the repository and just run the **app.py** file.
 To view the accuracy and code for the ANN classifier used in the app, we can run the **NaturalLanguageProcessing.py** file.
 
