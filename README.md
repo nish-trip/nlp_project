@@ -1,6 +1,8 @@
 # Natural Language Processing 
 
-This machine learning project makes use of python's libraries such as _nltk_,_re_,_pandas_,_sklearn_,etc to perform text analysis . To add to the complexity of the project an **Artificial Neural Network** has been used as the classifier.
+This machine learning project makes use of python's libraries such as _nltk_,_re_,_pandas_,_sklearn_,etc to perform text analysis . To add to the complexity of the project an **Artificial Neural Network** has been used as the classifier. We have used the **Flask framework** for the web application which helps acts as the GUI for this project.
+To run the web app we can download all the code files from the repository and just run the **app.py** file.
+To view the accuracy and code for the ANN classifier used in the app, we can run the **NaturalLanguageProcessing.py** file.
 
 ## Part 1: Cleaning the text and preparing the training set
 
@@ -38,6 +40,8 @@ Finally after compiling the network when we finally fit the training set into th
 
 [pandas](https://pandas.pydata.org/) library
 
+[flask](https://flask.palletsprojects.com/en/1.1.x/) framework for web application
+
 # Library Installation
 
 * pip install tensorflow
@@ -46,6 +50,8 @@ Finally after compiling the network when we finally fit the training set into th
 * pip install nltk
 * pip install regex
 * pip install pandas
+* pip install flask
+* pip install pickle5
 
 # Dataset and Inference
 
